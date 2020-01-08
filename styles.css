@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, arial, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #A9A9A9;
+  position: relative;
+}
+
+div {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 24px;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+.title2 {
+  color: #ffffff;
+  padding: 0;
+  position: absolute;
+  bottom: 41%
+}
+
+p {
+  font-size: 12px;
+  margin: 5%;
+}
+
+button {
+  margin: 5%;
+  background-color: #0C638A;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+}
+
+.quote {
+  border-left: solid 3px;
+  border-color: #0C638A;
+  padding-left: 5%;
+}
+
+/****************************************************************** text boxes*/
+ .textbox1, .textbox2, .textbox3 {
+  position: relative;
+  width: 300px;
+  background-color: #ffffff;
+  padding-bottom: 5px;
+}
+
+
+.textbox2::after {
+  content: "";
+  width: 0;
+  height: 0;
+
+  border-right: solid 10px #fff;
+  border-top: solid 10px transparent;
+  border-bottom: solid 10px transparent;
+
+  position: absolute;
+
+  right: 100%;
+  bottom: 85%;
+}
+
+.textbox1 {
+  left: 50px;
+  margin-top: 50px;
+}
+
+.textbox2 {
+  left: 600px;
+}
+
+.textbox3 {
+  left: 50px;
+  top: 100px;
+}
+
+/****************************************************************** date boxes*/
+.date, .date2, .date3 {
+  position: absolute;
+  width: 60px;
+  font-size: 7px;
+  text-align: center;
+  background-color: #FC435B;
+  color: #ffffff;
+}
+
+.date, .date3 {
+  right: 0;
+  top: 0;
+}
+
+.date2 {
+  top: 0;
+}

@@ -42,14 +42,6 @@ p {
   margin: 5%;
 }
 
-button {
-  margin: 5%;
-  background-color: #0C638A;
-  color: #ffffff;
-  border: none;
-  padding: 5px;
-}
-
 .quote {
   border-left: solid 3px;
   border-color: #0C638A;
@@ -168,4 +160,19 @@ span {
   position: absolute;
   top: 82%;
   right: -7.25px;
+}
+/********************************************************* hover and animation*/
+button {
+  margin: 5%;
+  background-color: #0C638A;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+
+}
+
+button:hover {
+  transition: 1s;
+  background-color:  #FC435B;
+
 }

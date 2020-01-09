@@ -15,10 +15,6 @@ body {
   position: relative;
 }
 
-/* div {
-  background-color: #ffffff;
-} */
-
 h1 {
   font-size: 24px;
   margin-left: 5%;
@@ -100,12 +96,10 @@ p {
 
 .textbox2 {
   left: 60%;
-
 }
 
 .textbox3 {
   left: 15%;
-
   margin-bottom: 65px;
 }
 
@@ -161,6 +155,7 @@ span {
   top: 82%;
   right: -7.25px;
 }
+
 /********************************************************* hover and animation*/
 button {
   margin: 5%;
@@ -168,11 +163,9 @@ button {
   color: #ffffff;
   border: none;
   padding: 5px;
-
 }
 
 button:hover {
   transition: 1s;
-  background-color:  #FC435B;
-
+  background-color: #FC435B;
 }

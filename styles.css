@@ -15,14 +15,19 @@ body {
   position: relative;
 }
 
-div {
+/* div {
   background-color: #ffffff;
-}
+} */
 
 h1 {
   font-size: 24px;
   margin-left: 5%;
   padding-top: 5%;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
 }
 
 .title2 {
@@ -52,41 +57,64 @@ button {
 }
 
 /****************************************************************** text boxes*/
- .textbox1, .textbox2, .textbox3 {
+.textbox1, .textbox2, .textbox3 {
   position: relative;
   width: 300px;
   background-color: #ffffff;
   padding-bottom: 5px;
+  background-color: #ffffff;
 }
 
+.textbox1::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: solid 10px #fff;
+  border-top: solid 10px transparent;
+  border-bottom: solid 10px transparent;
+  position: absolute;
+  left: 100%;
+  top: 20%;
+}
 
 .textbox2::after {
   content: "";
   width: 0;
   height: 0;
-
   border-right: solid 10px #fff;
   border-top: solid 10px transparent;
   border-bottom: solid 10px transparent;
-
   position: absolute;
-
   right: 100%;
-  bottom: 85%;
+  top: 12%;
+}
+
+.textbox3::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: solid 10px #fff;
+  border-top: solid 10px transparent;
+  border-bottom: solid 10px transparent;
+  position: absolute;
+  left: 100%;
+  top: 35%;
 }
 
 .textbox1 {
-  left: 50px;
-  margin-top: 50px;
+  left: 15%;
+  margin-top: 25px;
 }
 
 .textbox2 {
-  left: 600px;
+  left: 60%;
+
 }
 
 .textbox3 {
-  left: 50px;
-  top: 100px;
+  left: 15%;
+
+  margin-bottom: 65px;
 }
 
 /****************************************************************** date boxes*/
@@ -106,4 +134,13 @@ button {
 
 .date2 {
   top: 0;
+}
+
+/******************************************************************** timeline*/
+.vl {
+  border-left: 5px solid green;
+  height: 650px;
+  position: absolute;
+  left: 50%;
+  bottom: -55px;
 }

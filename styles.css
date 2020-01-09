@@ -138,9 +138,34 @@ button {
 
 /******************************************************************** timeline*/
 .vl {
-  border-left: 5px solid green;
-  height: 650px;
+  border-left: 4.5px solid #0C638A;
+  height: 770px;
   position: absolute;
   left: 50%;
   bottom: -55px;
+}
+
+span {
+  height: 20px;
+  width: 20px;
+  background-color: #0C638A;
+  border-radius: 50%;
+}
+
+.dot1 {
+  position: absolute;
+  top: 5%;
+  right: -7.25px;
+}
+
+.dot2 {
+  position: absolute;
+  top: 32%;
+  right: -7.25px;
+}
+
+.dot3 {
+  position: absolute;
+  top: 82%;
+  right: -7.25px;
 }
